@@ -3,6 +3,7 @@ import { Transform2dDemo } from './regl/transform-2d';
 import { LineDemo } from './regl/line';
 import { SquareInstanceDemo } from './regl/instance';
 import { OpfsDemo } from './demo/opfs';
+import { ReglCircleDemo } from './regl/circle';
 
 export const PageComps = [
   //
@@ -11,4 +12,5 @@ export const PageComps = [
   LineDemo,
   SquareInstanceDemo,
   OpfsDemo,
+  ReglCircleDemo,
 ];
