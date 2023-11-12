@@ -24,7 +24,7 @@ async function tryNewApi() {
   readWrite(readmeFile);
 
   // list fiels
-  for await (let [name, handle] of rootDir) {
+  for await (let [name, handle] of rootDir as any) {
     console.log(name);
   }
   console.log('*'.repeat(50));
